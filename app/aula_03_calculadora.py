@@ -14,5 +14,5 @@ calc = pg.typewrite("Calculadora")
 time.sleep(2)
 calc = pg.position(110,336)
 pg.click(calc)
-#serve para pegar a posição para pegar por coordenada
+#serve para pegar a posição  por coordenada
 #print(pg.position())
