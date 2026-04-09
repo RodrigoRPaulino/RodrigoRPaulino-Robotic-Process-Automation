@@ -4,7 +4,7 @@ import pyautogui as pg
 import pygetwindow as getWindow
 import time as delay
 
-
+delay.sleep(3)
 executar = pg.hotkey("win","r")
 delay.sleep(3)
 comando = pg.typewrite("Notepad")
@@ -16,9 +16,10 @@ pg.typewrite("Escrevendo o texto via codigo")
 
 delay.sleep(3)
 
-#seleciona a jalena ativa para fechar 
+#seleciona a janela ativa para fechar 
 encerrar = getWindow.getActiveWindow()
 delay.sleep(3)
+
 
 encerrar.close() # type: ignore
 delay.sleep(3)
